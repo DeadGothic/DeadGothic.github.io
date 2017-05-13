@@ -11,6 +11,7 @@
 - https://deadgothic.github.io/mail/
 - https://deadgothic.github.io/fortis/
 - https://deadgothic.github.io/armata/
+- https://deadgothic.github.io/barber-a/
 
 
 * Верстка выполнена мною.					
