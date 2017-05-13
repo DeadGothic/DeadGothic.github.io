@@ -1,8 +1,8 @@
-###My github hosting ###
+### My github hosting ###
 
-###My Portfolio###
+### My Portfolio###
 
-###
+
 * Верстка выполнена мною в рамках просмотра обучающих подкастов.
 - https://deadgothic.github.io/abra/
 - https://deadgothic.github.io/garage/
