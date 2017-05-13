@@ -14,7 +14,7 @@
 - https://deadgothic.github.io/barber-a/
 
 
-* Верстка выполнена мною.	
+* Верстка макетов из "Полезная рассылка HTML Academy".	
 - https://deadgothic.github.io/pakeia/
 
 
