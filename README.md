@@ -1,23 +1,17 @@
-### Проект «Mail» ###
+###My github hosting ###
+
+###My Portfolio###
 
 ###
-* Верстка осуществялась в рамках просмотра обучающего подкаста.
-* Инструменты разработчика используемые при верстке:
-  - Sublime Text
-  - Browsers (chrome,ff,ie9+)
-  - Adobe photoshop,Adobe Illustrator,Inkscape
-  - Библиотека jQuery
-  - LESS
-  - Bower
-  - Grunt
-  - Git
-  - Online servise: - https://validator.w3.org
-  					- https://fonts.google.com
-  					- https://www.fontsquirrel.com
-  					- etc.
+* Верстка выполнена мною в рамках просмотра обучающих подкастов.
+- https://deadgothic.github.io/abra/
+- https://deadgothic.github.io/garage/
+- https://deadgothic.github.io/procurs/
+- https://deadgothic.github.io/mail/
+- https://deadgothic.github.io/fortis/
 
-  ###
-  - Все исходники библиотеки,зависимости,мой шаблон и др. собраны в архив mail.7z					
+
+* Верстка выполнена мною.					
 
 
 ### Немного о себе ###
