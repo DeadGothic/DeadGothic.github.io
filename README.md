@@ -14,7 +14,8 @@
 - https://deadgothic.github.io/barber-a/
 
 
-* Верстка выполнена мною.					
+* Верстка выполнена мною.	
+- https://deadgothic.github.io/pakeia/
 
 
 ### Немного о себе ###
