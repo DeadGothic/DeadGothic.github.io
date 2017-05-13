@@ -1,21 +1,28 @@
-# DeadGothic.github.io
-My github hosting
+### Проект «Armata» ###
 
+###
+* Верстка осуществялась в рамках просмотра обучающего подкаста.
+* Инструменты разработчика используемые при верстке:
+  - Sublime Text
+  - Browsers (chrome,ff,ie9+)
+  - Adobe photoshop,Adobe Illustrator,Inkscape
+  - Библиотека jQuery
+  - LESS
+  - Bower
+  - Grunt
+  - Git
+  - Online servise: - https://validator.w3.org
+  					- https://fonts.google.com
+  					- https://www.fontsquirrel.com
+  					- etc.
 
-# MY Portfolio
-#Верстки выполненные мною в рамках просмотра обучающих подкастoв.
-- https://deadgothic.github.io/abra/
-- https://deadgothic.github.io/garage/
-- https://deadgothic.github.io/procurs/
-- https://deadgothic.github.io/mail/
-- https://deadgothic.github.io/fortis/
-
-
-#Верстки выполненые мною.
-
+  ###
+  - Все исходники библиотеки,зависимости,мой шаблон и др. собраны в архив armata.7z					
 
 
 ### Немного о себе ###
 * Дмитрий Чеканников
 * https://vk.com/deadgothic
 * Skype:deadgothic87
+
+
