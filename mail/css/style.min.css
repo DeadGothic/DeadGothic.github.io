@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}.email-header {
+    background: url(../img/Layer5.png) top left #574943;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 65px;
+}.email-header-top {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}.email-logo {
+    text-align: left;
+}.email-container {
+    color: #666666;
+    font-family: sans-serif;
+    font-size: 14px;
+}.email-center {
+    margin: auto;
+    padding: 0 20px;
+    max-width: 650px;
+}.email-center .button-wrapp {
+    text-align: center;
+}.email-social-wrapp {
+    float: right;
+}.email-social-wrapp a {
+    margin-left: 5px;
+}.email-button,
+.product-button {
+    display: inline-block;
+    padding: 7px 40px;
+    background: #56ba5b;
+    border-radius: 3px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}.email-teaser-wrapp {
+    text-align: center;
+    background: #f1f1f2;
+    border-bottom: 5px #d5d5d5 solid;
+    margin-top: -30px;
+    padding: 30px 0 0;
+}.email-teaser-wrapp .email-teaser-item {
+    display: inline-block;
+    width: 180px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}.email-teaser-wrapp .email-teaser-item p {
+    margin-top: 5px;
+}.email-sale-text {
+    max-width: 500px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 45px auto 40px;
+    padding: 15px 30px;
+    letter-spacing: 3px;
+    border: 1px solid #7a695a;
+    line-height: 26px;
+}.mail-products-wrapp {
+    margin-top: 45px;
+    text-align: center;
+}.mail-products-wrapp .mail-poducts-item {
+    padding: 40px 35px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+}.mail-products-wrapp .mail-poducts-item img {
+    width: 100%;
+}.mail-products-wrapp .mail-poducts-item .mail-poducts-price {
+    font-weight: 700;
+    padding: 15px;
+}.mail-products-wrapp .mail-poducts-item .product-button {
+    background: #7a695a;
+}.mail-footer {
+    background: #ececec;
+    padding: 25px 0;
+    text-align: center;
+    opacity: 0.6;
+}
