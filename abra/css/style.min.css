@@ -1,0 +1,291 @@
+.clear,
+.clearfix:after,
+.container_12:after {
+    clear: both;
+}.pull_1,
+.pull_10,
+.pull_11,
+.pull_2,
+.pull_3,
+.pull_4,
+.pull_5,
+.pull_6,
+.pull_7,
+.pull_8,
+.pull_9,
+.push_1,
+.push_10,
+.push_11,
+.push_2,
+.push_3,
+.push_4,
+.push_5,
+.push_6,
+.push_7,
+.push_8,
+.push_9,
+.top-baner,
+body {
+    position: relative;
+}.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}.grid_1,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9 {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}.alpha {
+    margin-left: 0;
+}.omega {
+    margin-right: 0;
+}.container_12 .grid_1 {
+    width: 60px;
+}.container_12 .grid_2 {
+    width: 140px;
+}.container_12 .grid_3 {
+    width: 220px;
+}.container_12 .grid_4 {
+    width: 300px;
+}.container_12 .grid_5 {
+    width: 380px;
+}.container_12 .grid_6 {
+    width: 460px;
+}.container_12 .grid_7 {
+    width: 540px;
+}.container_12 .grid_8 {
+    width: 620px;
+}.container_12 .grid_9 {
+    width: 700px;
+}.container_12 .grid_10 {
+    width: 780px;
+}.container_12 .grid_11 {
+    width: 860px;
+}.container_12 .grid_12 {
+    width: 940px;
+}.container_12 .prefix_1 {
+    padding-left: 80px;
+}.container_12 .prefix_2 {
+    padding-left: 160px;
+}.container_12 .prefix_3 {
+    padding-left: 240px;
+}.container_12 .prefix_4 {
+    padding-left: 320px;
+}.container_12 .prefix_5 {
+    padding-left: 400px;
+}.container_12 .prefix_6 {
+    padding-left: 480px;
+}.container_12 .prefix_7 {
+    padding-left: 560px;
+}.container_12 .prefix_8 {
+    padding-left: 640px;
+}.container_12 .prefix_9 {
+    padding-left: 720px;
+}.container_12 .prefix_10 {
+    padding-left: 800px;
+}.container_12 .prefix_11 {
+    padding-left: 880px;
+}.container_12 .suffix_1 {
+    padding-right: 80px;
+}.container_12 .suffix_2 {
+    padding-right: 160px;
+}.container_12 .suffix_3 {
+    padding-right: 240px;
+}.container_12 .suffix_4 {
+    padding-right: 320px;
+}.container_12 .suffix_5 {
+    padding-right: 400px;
+}.container_12 .suffix_6 {
+    padding-right: 480px;
+}.container_12 .suffix_7 {
+    padding-right: 560px;
+}.container_12 .suffix_8 {
+    padding-right: 640px;
+}.container_12 .suffix_9 {
+    padding-right: 720px;
+}.container_12 .suffix_10 {
+    padding-right: 800px;
+}.container_12 .suffix_11 {
+    padding-right: 880px;
+}.container_12 .push_1 {
+    left: 80px;
+}.container_12 .push_2 {
+    left: 160px;
+}.container_12 .push_3 {
+    left: 240px;
+}.container_12 .push_4 {
+    left: 320px;
+}.container_12 .push_5 {
+    left: 400px;
+}.container_12 .push_6 {
+    left: 480px;
+}.container_12 .push_7 {
+    left: 560px;
+}.container_12 .push_8 {
+    left: 640px;
+}.container_12 .push_9 {
+    left: 720px;
+}.container_12 .push_10 {
+    left: 800px;
+}.container_12 .push_11 {
+    left: 880px;
+}.container_12 .pull_1 {
+    left: -80px;
+}.container_12 .pull_2 {
+    left: -160px;
+}.container_12 .pull_3 {
+    left: -240px;
+}.container_12 .pull_4 {
+    left: -320px;
+}.container_12 .pull_5 {
+    left: -400px;
+}.container_12 .pull_6 {
+    left: -480px;
+}.container_12 .pull_7 {
+    left: -560px;
+}.container_12 .pull_8 {
+    left: -640px;
+}.container_12 .pull_9 {
+    left: -720px;
+}.container_12 .pull_10 {
+    left: -800px;
+}.container_12 .pull_11 {
+    left: -880px;
+}.clear {
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}.clearfix:after,
+.clearfix:before,
+.container_12:after,
+.container_12:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}.clearfix,
+.container_12 {
+    zoom: 1;
+}@font-face {
+    font-family: Harabara;
+    src: url(../fonts/Harabara.eot);
+    src: url(../fonts/Harabara.eot?#iefix) format("embedded-opentype"),url(../fonts/Harabara.woff) format("woff"),url(../fonts/Harabara.ttf) format("truetype"),url(Harabara.svg#Harabara) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}body {
+    padding-top: 120px;
+    min-width: 320px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: Arial,sans-serif;
+    color: #000000;
+    font-style: normal;
+    background-color: #202930;
+    overflow-x: hidden;
+}img {
+    max-width: 100%;
+    height: auto;
+}a {
+    text-decoration: none;
+    color: #fdab37;
+}li,
+ul {
+    padding: 0;
+    margin: 0;
+}.top-baner {
+    padding: 70px 0 25px;
+    min-height: px;
+    background-image: url(../img/top-bg-2.png);
+    font-family: Harabara,Arial,Sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+}.top-baner .top-overlay {
+    background-image: url(../img/top-bg-glow.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}.top-baner h2 {
+    color: #fdab37;
+    margin: 0;
+    font-size: 40px;
+    text-shadow: rgba(0,0,0,0.6) 1px 4px;
+    text-transform: uppercase;
+}.top-baner li {
+    padding: 5px;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}.top-baner li:hover {
+    border: 2px solid rgba(255,255,255,0.4);
+    cursor: default;
+}.top-baner ul {
+    margin-top: 25px;
+}.top-baner .top-baner-foto {
+    position: absolute;
+    bottom: 0;
+}.main-header {
+    width: 100%;
+    height: 121px;
+    background-image: url(../img/top_mnu.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}.main-header .logo {
+    display: block;
+    margin-top: 30px;
+}.main-header .mnu_top {
+    float: right;
+}.main-header .mnu_top a {
+    display: block;
+    padding: 65px 26px 15px;
+    font-family: Harabara,Arial,sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+    text-shadow: rgba(0,0,0,0.6) 1px 2px;
+    border-left: 2px solid #2d2d2e;
+}.main-header .mnu_top li {
+    position: relative;
+    display: inline-block;
+    margin-left: -5px;
+}.main-header .mnu_top li:last-child {
+    border-right: 2px solid #2d2d2e;
+}.main-header .mnu_top li.active a,
+.main-header .mnu_top li:hover a {
+    color: #fdab37;
+}.main-header .mnu_top li.active .top-hover,
+.main-header .mnu_top li:hover .top-hover {
+    background-color: #fdab37;
+    width: 100%;
+    left: 0;
+}.main-header .mnu_top .top-hover {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: -5px;
+    left: 15%;
+    -webkit-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+}
