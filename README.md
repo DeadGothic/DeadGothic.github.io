@@ -10,6 +10,7 @@
 - https://deadgothic.github.io/procurs/
 - https://deadgothic.github.io/mail/
 - https://deadgothic.github.io/fortis/
+- https://deadgothic.github.io/armata/
 
 
 * Верстка выполнена мною.					
