@@ -7,6 +7,7 @@ My github hosting
 - https://deadgothic.github.io/abra/
 - https://deadgothic.github.io/garage/
 - https://deadgothic.github.io/procurs/
+- https://deadgothic.github.io/mail/
 
 
 #Верстки выполненые мною.
