@@ -8,6 +8,7 @@ My github hosting
 - https://deadgothic.github.io/garage/
 - https://deadgothic.github.io/procurs/
 - https://deadgothic.github.io/mail/
+- https://deadgothic.github.io/fortis/
 
 
 #Верстки выполненые мною.
