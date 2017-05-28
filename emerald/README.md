@@ -11,11 +11,11 @@
   - Bower
   - Grunt
   - Git
+   -Использовались Flexbox
   - Online servise: - https://validator.w3.org
   					- https://fonts.google.com
   					- https://www.fontsquirrel.com
   					- etc.
-  -использовались Flexbox
   ###
   - Все исходники библиотеки,зависимости,мой шаблон и др. собраны в архив emerald.7z					
 
