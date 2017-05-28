@@ -8,16 +8,18 @@
 * Верстка выполнена мною в рамках просмотра обучающих подкастов.Каждый следующий макет страюсь сделать лучше с учетом работы над ошибками  из предыдущего проекта.
 - https://deadgothic.github.io/barber-a/ 
 - https://deadgothic.github.io/abra/
+- https://deadgothic.github.io/pakeia/ (Верстка макетов из "Полезная рассылка HTML Academy")
 - https://deadgothic.github.io/garage/
 - https://deadgothic.github.io/procurs/
 - https://deadgothic.github.io/mail/ (верстка письма почтовой рассылки)
 - https://deadgothic.github.io/fortis/ (верстка полностью выполнена на чистом Bootstrap3)
 - https://deadgothic.github.io/armata/
+- https://deadgothic.github.io/emerald/ (использовал Flexbox/только десктопная версия,адаптив не делал)
 
 
 
-* Верстка макетов из "Полезная рассылка HTML Academy".	
-- https://deadgothic.github.io/pakeia/
+	
+
 
 
 ### Немного о себе: ###
