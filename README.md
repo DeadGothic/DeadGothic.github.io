@@ -28,7 +28,7 @@
 ### Немного о себе: ###
 ### Сегодня я умею больше чем вчера! ###
 * Дмитрий Чеканников
-* https://vk.com/deadgothic
+* https://www.linkedin.com/in/dmitriychekannikov/
 * https://www.facebook.com/chekannikov
 * Skype:deadgothic87
 
