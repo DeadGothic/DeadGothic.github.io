@@ -17,7 +17,8 @@
 - https://deadgothic.github.io/fortis/ (верстка полностью выполнена на чистом Bootstrap3)
 - https://deadgothic.github.io/armata/
 - https://deadgothic.github.io/emerald/ (использовал Flexbox/только десктопная версия)
-- https://deadgothic.github.io/brend/   (использовал Flexbox/только десктопная версия) 
+- https://deadgothic.github.io/brend/   (использовал Flexbox/только десктопная версия)
+- https://deadgothic.github.io/smitler/ 
 
 
 
