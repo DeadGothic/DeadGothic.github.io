@@ -19,7 +19,7 @@
 - https://deadgothic.github.io/emerald/ (использовал Flexbox/только десктопная версия)
 - https://deadgothic.github.io/brend/   (использовал Flexbox/только десктопная версия)
 - https://deadgothic.github.io/smitler/ 
-
+- https://deadgothic.github.io/house/ (тест)
 
 
 	
