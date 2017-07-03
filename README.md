@@ -20,7 +20,7 @@
 - https://deadgothic.github.io/brend/   (использовал Flexbox/только десктопная версия)
 - https://deadgothic.github.io/smitler/ 
 - https://deadgothic.github.io/house/ (тест)
-- https://deadgothic.github.io/email(2)/ (тест2 письмо)
+- DeadGothic.github.io/newmail/ (тест2 письмо)
 
 
 	
