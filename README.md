@@ -22,6 +22,7 @@
 - https://deadgothic.github.io/house/ (тест)
 - https://deadgothic.github.io/newmail/ (тест2 письмо)
 - https://deadgothic.github.io/mailfil/ (еще одно письмецо)
+- https://deadgothic.github.io/test-task/ (дали дестовое задание со студии)
 
 
 	
