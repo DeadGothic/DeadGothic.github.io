@@ -4,7 +4,7 @@
 * Верстка осуществялась в рамках выполнения тестового задания от заказчика.
 * Инструменты разработчика используемые при верстке:
   - Sublime Text
-  - Browsers (chrome,ff,ie9+)
+  - Browsers (chrome,ff,ie11)
   - Adobe photoshop.
   - Библиотека jQuery
   - LESS
