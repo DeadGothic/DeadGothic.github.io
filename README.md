@@ -24,6 +24,7 @@
 - https://deadgothic.github.io/mailfill/ (еще одно письмецо)
 - https://deadgothic.github.io/test-task/ (дали тестовое задание со студии)
 - https://deadgothic.github.io/HighHouse/ (тестовая верстка) 
+- https://deadgothic.github.io/santechnika/ (письмо.да,и в outlook тоже работает)
 
 
 	
