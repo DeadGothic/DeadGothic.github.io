@@ -26,6 +26,7 @@
 - https://deadgothic.github.io/HighHouse/ (тестовая верстка) 
 - https://deadgothic.github.io/santechnika/ (письмо.да,и в outlook тоже работает)
 - https://deadgothic.github.io/Kvest/ (mobile first)
+- https://deadgothic.github.io/Pokrovsry/
 
 
 	
