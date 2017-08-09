@@ -21,6 +21,7 @@
 - https://deadgothic.github.io/smitler/ 
 - https://deadgothic.github.io/house/ (тест)
 - https://deadgothic.github.io/newmail/ (тест2 письмо)
+- https://deadgothic.github.io/wp_lp/ 
 - https://deadgothic.github.io/mailfill/ (еще одно письмецо)
 - https://deadgothic.github.io/test-task/ (дали тестовое задание со студии)
 - https://deadgothic.github.io/HighHouse/ (тестовая верстка) 
