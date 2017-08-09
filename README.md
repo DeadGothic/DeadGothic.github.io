@@ -27,6 +27,7 @@
 - https://deadgothic.github.io/santechnika/ (письмо.да,и в outlook тоже работает)
 - https://deadgothic.github.io/Kvest/ (mobile first)
 - https://deadgothic.github.io/Pokrovsry/
+- https://deadgothic.github.io/Flex-LP/ (верстка полностью на флексах,ну вот просто везде-везде)
 
 
 	
