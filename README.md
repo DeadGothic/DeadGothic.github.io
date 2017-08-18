@@ -30,6 +30,7 @@
 - https://deadgothic.github.io/Pokrovsry/
 - https://deadgothic.github.io/Flex-LP/ (верстка полностью на флексах,ну вот просто везде-везде)
 - https://deadgothic.github.io/lemoncello/ (пицца на флесках)
+- https://deadgothic.github.io/pdf/ (письмо.работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс)
 
 
 	
