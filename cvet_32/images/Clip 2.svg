@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="17px" viewBox="0 0 14 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Clip 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M582,4677 L578,4677 L578,4671 L572,4671 L572,4677 L568,4677 L575,4684 L582,4677 Z M568,4686 L568,4688 L582,4688 L582,4686 L568,4686 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sekond" transform="translate(-568.000000, -4671.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Clip-2" fill="#4E4F4F" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

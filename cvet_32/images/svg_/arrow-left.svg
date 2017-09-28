@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20px"
+   height="9px"
+   viewBox="0 0 20 9"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="arrow-left.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Group 2</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="22.5"
+     inkscape:cx="10"
+     inkscape:cy="4.5"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">Group 2</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="Page-1"
+     transform="rotate(-180,9.9986825,4.5817962)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="Sekond"
+       transform="translate(-691,-2642)"
+       style="fill:#4e4f4f">
+      <g
+         id="Group-3"
+         transform="translate(80,166)">
+        <g
+           id="Arrow"
+           transform="translate(591,2451)">
+          <g
+             id="Group-2"
+             transform="translate(20,25)">
+            <rect
+               id="Rectangle-3"
+               x="0"
+               y="3.5"
+               width="17"
+               height="2" />
+            <polygon
+               id="Triangle"
+               points="13,0.5 19.997365,4.5817962 13,8.6635924 " />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
