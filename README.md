@@ -32,6 +32,7 @@
 - https://deadgothic.github.io/lemoncello/ (пицца на флесках)
 - https://deadgothic.github.io/pdf/ (письмо долько под десктопы согласно ТЗ.работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс)
 - https://deadgothic.github.io/portfolio/ (каркасик)
+- https://deadgothic.github.io/mogo/ (верстка на флексах,адаптив нужно доработать)
 
 
 	
