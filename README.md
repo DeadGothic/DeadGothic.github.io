@@ -20,24 +20,29 @@
 - https://deadgothic.github.io/brend/   (использовал Flexbox/только десктопная версия)
 - https://deadgothic.github.io/smitler/ 
 - https://deadgothic.github.io/house/ (тест)
-- https://deadgothic.github.io/newmail/ (тест2 письмо)
+
 - https://deadgothic.github.io/wp_lp/ 
-- https://deadgothic.github.io/mailfill/ (еще одно письмецо)
+
 - https://deadgothic.github.io/test-task/ (дали тестовое задание со студии)
 - https://deadgothic.github.io/HighHouse/ (тестовая верстка) 
-- https://deadgothic.github.io/santechnika/ (письмо.да,и в outlook тоже работает)
+
 - https://deadgothic.github.io/Kvest/ (mobile first)
 - https://deadgothic.github.io/Pokrovsry/
 - https://deadgothic.github.io/Flex-LP/ (верстка полностью на флексах,ну вот просто везде-везде)
 - https://deadgothic.github.io/lemoncello/ (пицца на флесках)
-- https://deadgothic.github.io/pdf/ (письмо долько под десктопы согласно ТЗ.работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс)
+
 - https://deadgothic.github.io/portfolio/ (каркасик)
 - https://deadgothic.github.io/mogo/ (верстка на флексах,адаптив нужно доработать)
 - https://deadgothic.github.io/cvet_32/ (впервые использовал препроцессор Sass+gulp до этого все проекты делал на Less+grunt)
+
+
+### Верстка Email-писем ###
+- https://deadgothic.github.io/newmail/ (тест2 письмо)
+- https://deadgothic.github.io/mailfill/ (еще одно письмецо)
+- https://deadgothic.github.io/santechnika/ (письмо.да,и в outlook тоже работает)
+- https://deadgothic.github.io/pdf/ (письмо долько под десктопы согласно ТЗ.работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс)
 - https://deadgothic.github.io/september/ (письмо,адаптивное.Работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс и т д)
 - https://deadgothic.github.io/moda/  (письмо,адаптивное.Работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс и т д)
-
-
 	
 
 
