@@ -43,6 +43,7 @@
 - https://deadgothic.github.io/pdf/ (письмо долько под десктопы согласно ТЗ.работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс)
 - https://deadgothic.github.io/september/ (письмо,адаптивное.Работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс и т д)
 - https://deadgothic.github.io/moda/  (письмо,адаптивное.Работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс и т д)
+- https://deadgothic.github.io/ngegorodec/
 	
 
 
