@@ -1,0 +1,309 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.4
+	font-family: $ProximaNova-Regular
+	overflow-x: hidden
+	opacity: 1
+	color: #000
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+ul,li
+	list-style-type: none
+	padding: 0
+	margin: 0
+
+a
+	text-decoration: none
+	color: inherit
+	&:hover,&:focus
+		text-decoration: none
+		color: #fff
+		outline: none
+img
+	max-width: 100%
+	height: auto	
+
+.hidden
+	display: none
+
+.wraper
+	position: relative
+	width: 100%
+	max-width: 1200px
+	min-width: 320px
+	margin: 0 auto
+	padding: 0 15px
+
+
+//.......................
+//		HEADER
+//.......................
+.header
+	min-height: 100vh
+	background: #f2f2f2 url('../img/head-bg.jpg') no-repeat center
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	background-size: cover
+	&-logo
+		img
+			max-width: 90px
+		p
+			display: inline-block
+			padding-left: 25px
+			line-height: 20px
+			vertical-align: middle
+		span
+			font-family: $ProximaNova-ExtraBold
+			font-weight: 700
+			font-style: italic
+	&-date
+		p
+			font-size: 24px
+			line-height: 30px
+			font-weight: 900
+			margin: 0
+			text-align: right
+			font-family: $ProximaNova-ExtraBold
+	&-top
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		align-items: center
+		padding: 30px 0
+		opacity: 0
+		transition: all 2s ease
+		transition-delay: .3s
+	&-title
+		font-size: 28px
+		text-align: center
+		margin: 0
+		opacity: 0
+		transition: all 2s ease	
+		transition-delay: .7s
+	&-main
+		opacity: 0
+		transition: all 2s ease	
+		transition-delay: .9s
+	
+
+.h1
+	font-size: 36px
+	line-height: 40px
+	text-align: center
+	font-family: $ProximaNova-Bold
+	font-weight: 700
+	margin: 0
+	color: #d90000
+	margin-top: 50px
+	margin-bottom: 25px
+	opacity: 0
+	transition: all 2s ease	
+	transition-delay: .5s
+
+.header-list
+	margin-top: 65px
+	float: left
+	max-width: 50%
+	margin-right: 35px
+	&__item
+		position: relative
+		font-size: 18px
+		font-weight: 600
+		font-style: italic
+		margin-bottom: 15px
+		padding-left: 35px
+		&:before
+			position: absolute
+			content: ''
+			display: inline-block
+			width: 24px
+			height: 18px
+			background: url('../img/check-red.png')
+			left: 0
+			top: 6px
+
+.relation
+	position: relative
+	display: block
+	margin: 0 auto
+	border: none
+	width: 100%
+	&__ration
+		padding-top: 56.25%
+		height: 0
+iframe
+	z-index: 1
+	position: absolute
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	border: 0	
+.video-wrap
+	float: right
+	min-width: 40%
+	margin-top: 45px
+
+.h3
+	margin: 0
+	font-size: 30px	
+	text-align: center
+	font-family: $ProximaNova-Bold
+	font-weight: 700
+	color: #d90000
+	margin-top: 50px
+	margin-bottom: 35px
+	opacity: 0
+	transition: all 2s ease
+	transition-delay: 1.1s	
+
+.btn
+	display: inline-block
+	vertical-align: middle
+	text-align: center
+	font-size: 25px
+	font-weight: 700
+	border-radius: 8px
+	background-color: #d90000
+	border: 1px solid #ac2925
+	color: #fff
+	padding: 20px 30px
+	font-family: $ProximaNova-Regular
+	transition: all .5s ease
+	margin-bottom: 45px
+	&:hover
+		color: #fff
+		background: #ac2925
+
+.btn-wrap
+	text-align: center
+	opacity: 0
+	transition: all 2s ease
+	transition-delay: 1.1s
+
+//popup
+.popup-form
+	width: 100%
+	max-width: 440px;
+	margin: 40px  auto;
+	transform: translateX(40px)
+.form
+	display: block
+	padding: 50px 40px 40px
+	max-width: 360px
+	border: 1px solid grey
+	background: #DAE9FC
+	border-radius: 15px
+	text-align: center
+	height: 440px
+	&__title,
+		font-size: 28px
+		line-height: 30px
+		font-weight: 600
+		margin-bottom: 30px
+		margin-top: 0
+	&__group
+		position: relative
+		margin-bottom: 25px
+		&:nth-child(3)
+			margin-bottom: 40px
+	&__input
+		width: 100%
+		max-width: 300px
+		height: 40px
+		line-height: 38px
+		border: 2px solid #3879D9
+		border-radius: 5px
+		padding: 0 20px 0 40px
+		outline: none
+		&:focus,&:visited,&:hover,&:active
+			border: 2px solid 
+
+
+.form__group--name:before
+	position: absolute
+	content: ''
+	display: block
+	height: 25px
+	width: 25px
+	left: 5px
+	top: 7px
+	background: url("../img/avatar.png") no-repeat center
+
+.form__group--phone:before
+	position: absolute
+	content: ''
+	display: block
+	height: 25px
+	width: 25px
+	left: 5px
+	top: 7px
+	background: url("../img/phone-call.png") no-repeat	center
+
+.global-btn
+	display: inline-block
+	color: #000
+	padding: 5px 20px
+	border: 2px solid #3879D9
+	border-radius: 5px
+	font-size: 18px
+	transition: all .2s linear
+	cursor: pointer	
+	&:hover
+		background: #3879D9
+
+
+.thanks
+	display: none
+	font-size: 28px
+	line-height: 30px
+	font-weight: 600
+	margin-bottom: 30px
+	margin-top: 0
+	p
+		margin-bottom: 55px
+
+@import "media" // Всегда в конце
