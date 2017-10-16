@@ -30,7 +30,7 @@
 - https://deadgothic.github.io/portfolio/ (каркасик)
 - https://deadgothic.github.io/mogo/ (верстка на флексах,адаптив нужно доработать)
 - https://deadgothic.github.io/cvet_32/ (впервые использовал препроцессор Sass+gulp до этого все проекты делал на Less+grunt)
-- https://deadgothic.github.io/alyonadesyatnik/ 
+- https://deadgothic.github.io/alyonadesyatnik/ (рекламная промостраничка)
 - https://deadgothic.github.io/poznan/
 
 
