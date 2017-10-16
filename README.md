@@ -20,20 +20,17 @@
 - https://deadgothic.github.io/brend/   (использовал Flexbox/только десктопная версия)
 - https://deadgothic.github.io/smitler/ 
 - https://deadgothic.github.io/house/ (тест)
-
 - https://deadgothic.github.io/wp_lp/ 
-
 - https://deadgothic.github.io/test-task/ (дали тестовое задание со студии)
 - https://deadgothic.github.io/HighHouse/ (тестовая верстка) 
-
 - https://deadgothic.github.io/Kvest/ (mobile first)
 - https://deadgothic.github.io/Pokrovsry/
 - https://deadgothic.github.io/Flex-LP/ (верстка полностью на флексах,ну вот просто везде-везде)
 - https://deadgothic.github.io/lemoncello/ (пицца на флесках)
-
 - https://deadgothic.github.io/portfolio/ (каркасик)
 - https://deadgothic.github.io/mogo/ (верстка на флексах,адаптив нужно доработать)
 - https://deadgothic.github.io/cvet_32/ (впервые использовал препроцессор Sass+gulp до этого все проекты делал на Less+grunt)
+- DeadGothic.github.io/alyonadesyatnik/ 
 
 
 ### Верстка Email-писем ###
