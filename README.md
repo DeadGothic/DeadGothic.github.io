@@ -21,8 +21,8 @@
 - https://deadgothic.github.io/smitler/ 
 - https://deadgothic.github.io/house/ (тест)
 - https://deadgothic.github.io/wp_lp/ 
-- https://deadgothic.github.io/test-task/ (дали тестовое задание со студии)
-- https://deadgothic.github.io/HighHouse/ (тестовая верстка) 
+- https://deadgothic.github.io/test-task/ 
+- https://deadgothic.github.io/HighHouse/ 
 - https://deadgothic.github.io/Kvest/ (mobile first)
 - https://deadgothic.github.io/Pokrovsry/
 - https://deadgothic.github.io/Flex-LP/ (верстка полностью на флексах,ну вот просто везде-везде)
@@ -35,7 +35,7 @@
 
 
 ### Верстка Email-писем ###
-- https://deadgothic.github.io/newmail/ (тест2 письмо)
+- https://deadgothic.github.io/newmail/ 
 - https://deadgothic.github.io/mailfill/ (еще одно письмецо)
 - https://deadgothic.github.io/santechnika/ (письмо.да,и в outlook тоже работает)
 - https://deadgothic.github.io/pdf/ (письмо долько под десктопы согласно ТЗ.работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс)
