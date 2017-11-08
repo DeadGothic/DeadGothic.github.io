@@ -1,0 +1,115 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+.h3
+	font-size: 16px
+	color: #19263f
+	font-weight: bold
+	font-family: $default-font
+	text-transform: uppercase
+
+
+.section3
+	.container
+		padding: 0 100px
+		text-align: center
+	&-text
+		font-size: 16px
+		color: #000
+		margin-bottom: 80px
+	.h2
+		margin-top: 85px
+		margin-bottom: 40px
+	.btn
+		display: inline-block
+		color: #19263f
+		font-size: 15px
+		padding: 13px 33px
+		border: 1px solid #80b450
+		border-radius: 5px
+		transition: all .2s ease
+		&:hover
+			text-decoration: none
+			background: #80b450
+			color: #fff
+
+
+
+
+.section3-item
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	align-items: center
+	margin-bottom: 70px
+	//min-height: 200px
+	img
+		margin-bottom: 30px
+	.h3
+		margin: 0
+		margin-bottom: 20px
+	p
+		margin: 0
+		font-size: 14px
+		//max-width: 240px
+		text-align: center
+
+
+
+//адаптивность делаем шаг .25% на каждом шаге сетки
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 992px)
+	.section3
+		.container
+			padding: 0 20px
+		&-text
+			font-size: 14px
+			margin-bottom: 60px
+		.h2
+			margin-top: 43px
+			margin-bottom: 30px
+		.btn
+			font-size: 12px
+			padding: 10px 26px
+		.col-sm-6
+			padding: 0 10px
+
+
+@media only screen and (max-width : 768px)
+	.h3
+		font-size: 14px
+
+
+	.section3
+		&-text
+			font-size: 12px
+			margin-bottom: 40px
+		.h2
+			margin-top: 45px
+			margin-bottom: 20px
+			font-size: 13px
+
+.section3-item
+	margin-bottom: 35px
+
+	img
+		margin-bottom: 20px
+
+	p
+		font-size: 12px
+		max-width: 240px
+
+@media only screen and (max-width : 550px)
+	.section3
+		.row
+			display: flex
+			flex-direction: column
+			//justify-content: center
+			align-items: center
+		.btn
+			font-size: 10px
+			padding: 8px 25px
+		.col-xs-6
+			width: 90%
+		

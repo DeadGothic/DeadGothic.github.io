@@ -1,0 +1,110 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+.h2
+	font-size: 20px
+	font-weight: bold
+	font-family: $default-font
+	color: #19263f
+	text-align: center
+
+.section2
+	.h2
+		margin-bottom: 107px
+		margin-top: 67px
+	.container
+		padding: 0 100px
+	.row
+		display: flex
+
+
+
+
+
+.section2-item
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	align-items: center
+	img
+		margin-bottom: 25px
+		display: block
+	.h2
+		margin: 0
+		margin-bottom: 30px
+	p
+		text-align: left
+		margin: 0
+		margin-bottom: 45px
+	.more
+		font-size: 15px
+		color: #1657ab
+		margin-bottom: 50px
+		&:hover
+			text-decoration: none
+			color: darken(#1657ab, 10%)
+
+
+
+//адаптивность делаем шаг .25% на каждом шаге сетки
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 992px)
+	.h2
+		font-size: 15px
+
+	.section2
+		.h2
+			margin-bottom: 80px
+			margin-top: 50px
+		.container
+			padding: 0 20px
+
+
+	.section2-item
+		img
+			margin-bottom: 20px
+		.h2
+			margin: 0
+			margin-bottom: 25px
+		p
+			margin-bottom: 33px
+			font-size: 14px
+		.more
+			font-size: 12px
+			margin-bottom: 38px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 768px)
+	.h2
+		font-size: 13px
+
+	.section2
+		.h2
+			margin-bottom: 55px
+			margin-top: 33px
+
+
+	.section2-item
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: center
+		img
+			margin-bottom: 15px
+		.h2
+			margin-bottom: 25px
+		p
+			margin-bottom: 30px
+			font-size: 12px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 500px)
+	.section2 .row
+			display: block
+	.section2
+		.h2
+			margin-bottom: 30px
+
+		

@@ -1,0 +1,125 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+.footer
+	padding-top: 47px
+	padding-bottom: 47px
+	background: #19263f
+	.container
+		padding: 0 100px
+	.copyright
+		font-size: 12px
+		color: #fff
+		text-align: center
+
+.footer-list
+	display: flex
+	flex-wrap: nowrap
+	justify-content: center
+	margin-bottom: 30px
+	&-item
+		margin-right: 45px
+	&-link
+		color: #fff
+		&:hover
+			color: #fff
+			text-decoration: none
+
+.footer-social
+	display: flex
+	flex-wrap: nowrap
+	justify-content: center
+	margin-bottom: 45px
+	&-item
+		position: relative
+		margin-right: 25px
+	&-link
+		position:relative
+		display: block
+		width: 50px
+		height: 50px
+		background: rgba(255,255,255, .2)
+		border-radius: 50%
+		transition: all .2s ease
+		border: 1px solid transparent
+		&:hover
+		 background: #19263f
+		 border: 1px solid #fff
+	&-link--fb:before
+		position: absolute
+		content: ''
+		width: 50px
+		height: 50px
+		transform: translateX(-50%)
+		transform: translateY(0)
+		background: url('../img/facebook-letter-logo.png') no-repeat center
+		//background-size: cover
+	&-link--tw:before
+		position: absolute
+		content: ''
+		width: 50px
+		height: 50px
+		transform: translateX(-50%)
+		transform: translateY(0)
+		background: url('../img/twitter-logo.png') no-repeat center
+		//background-size: cover
+	&-link--insta:before
+		position: absolute
+		content: ''
+		width: 50px
+		height: 50px
+		transform: translateX(-50%)
+		transform: translateY(0)
+		background: url('../img/instagram-symbol.png') no-repeat center
+		//background-size: cover
+
+
+
+
+
+//адаптивность делаем шаг .25% на каждом шаге сетки
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.footer
+		padding-top: 22px
+		padding-bottom: 22px
+		.container
+			padding: 0 20px
+		.copyright
+			font-size: 10px
+
+	.footer-list
+		margin-bottom: 15px
+		&-item
+			margin-right: 23px
+		&-link
+			font-size: 12px
+
+	.footer-social
+		margin-bottom: 22px
+		&-item
+			margin-right: 12px
+		&-link
+			width: 45px
+			height: 45px
+		&-link--fb:before
+			width: 45px
+			height: 45px
+			transform: translateX(-50%)
+			transform: translateY(0)			
+		&-link--tw:before
+			width: 45px
+			height: 45px
+			transform: translateX(-50%)
+			transform: translateY(0)
+		&-link--insta:before
+			width: 45px
+			height: 45px
+			transform: translateX(-50%)
+			transform: translateY(0)			
+
+@media only screen and (max-width : 768px)
+	.footer-list
+		&-link
+			font-size: 10px
