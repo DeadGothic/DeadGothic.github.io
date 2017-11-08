@@ -33,6 +33,7 @@
 - https://deadgothic.github.io/cvet_32/ (впервые использовал препроцессор Sass+gulp до этого все проекты делал на Less+grunt)
 - https://deadgothic.github.io/alyonadesyatnik/ (рекламная промостраничка)
 - https://deadgothic.github.io/poznan/
+- https://deadgothic.github.io/company/
 
 
 ### Верстка Email-писем ###
