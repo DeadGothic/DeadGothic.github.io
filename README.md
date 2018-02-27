@@ -34,6 +34,7 @@
 - https://deadgothic.github.io/alyonadesyatnik/ (рекламная промостраничка)
 - https://deadgothic.github.io/poznan/
 - https://deadgothic.github.io/company/
+- https://deadgothic.github.io/NowedoMarketing/
 
 
 ### Верстка Email-писем ###
