@@ -1,0 +1,798 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+html, body
+	height: 100%
+	overflow-x: hidden
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	input, textarea
+			border: #666 1px solid
+			outline: none
+			&:focus:required:invalid
+				border-color: red
+			&:required:valid
+				border-color: green
+input, 
+textarea 
+	outline: none!important
+button:active,
+button:focus
+	outline: none!important	
+a
+	text-decoration: none
+a:hover
+	text-decoration: none
+img
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+.btn
+	display: inline-block
+	text-transform: uppercase
+	text-align: center
+	padding: 23px 60px
+	color: #000
+	background: #fff
+	&:hover
+		text-decoration: none
+	&--header
+		transition: all .2s ease
+		font-size: 22px
+		&:hover
+			background: #000
+			color: #fff
+	&--products
+		font-size: 25px
+		&:hover
+			background: #000
+			color: #fff
+
+.h2
+	position: relative
+	font-size: 44px
+	font-weight: 500
+	text-transform: uppercase
+	text-align: center
+	margin: 0
+
+.h2-decoration_line
+	&:before,
+	&:after
+		display: inline-block
+		vertical-align: middle
+		position: relative
+		content: ""
+		width: 100%
+		height: 2px
+		background: $main-green
+	&:before
+		bottom: 50%
+		right: 50px
+		margin-left: -100%
+	&:after
+		top: 50%
+		margin-right: -100%
+		left: 50px
+
+//header
+.header
+  background: url("../img/header-bg.jpg") no-repeat
+  background-position: 50% 50px
+  background-size: cover
+  padding-bottom: 95px
+  //min-height: 1050px
+  .top-menu_btn
+  	display: none
+  	position: absolute
+  	right: 30px
+  	top: -40px
+  	&:hover
+  		cursor: pointer
+
+.top-line
+	position: relative
+	padding: 28px 0
+	background: #010101
+.logo
+  font-size: 30px
+  color: #fff
+
+.top-line_mnu
+    margin: 0
+    padding: 0
+    padding-bottom: 5px
+    list-style-type: none
+    display: flex
+    border-bottom: 1px solid rgba($main-green,0.5)
+    li
+      position: relative
+      margin-left: 70px
+      font-size: 14px
+      text-transform: uppercase
+      &:before
+        display: block
+        position: absolute
+        content: ""
+        width: 100%
+        height: 3px
+        bottom: -5px
+        background:  $main-green
+        transform: scale(0)
+        transition: all .2s ease
+      &:hover:before
+        transform: scale(1)
+      &:first-child
+        margin-left: 0px
+      a
+        color: #fff
+      a:hover
+        text-decoration: none
+
+.h1
+  position: relative
+  margin: 0
+  margin-top: 35px
+  font-family: $header-font
+  color: #fff
+  font-size: 70px
+  font-weight: 900
+  line-height: 1.3
+  text-transform: uppercase
+  text-align: center
+  padding: 50px 50px
+  background: rgba(0,0,0, .7)
+  &:after
+    position: absolute
+    display: block
+    content: ""
+    width: 80%
+    height: 1px
+    top: 65%
+    background: rgba($main-green,0.5)
+    left: 50%
+    transform: translateX(-50%)
+  .subtittle
+    display: block
+    font-size: 24px
+    font-family: $default-font
+    font-weight: normal
+    text-transform: none
+    margin-top: 45px
+
+.header-btn-container
+  text-align: center
+  margin-top: 405px
+.btn-outline
+  display: inline-block
+  padding: 4px
+  border: 1px solid #fff
+
+li.parent
+	position: reltive
+li.parent-hover:hover .dropdown-list
+	top: 28px
+	opacity: 1
+	z-index: 10
+.dropdown-list
+  margin: 0px
+  padding: 0px
+  list-style-type: none 
+  position: absolute
+  width: 200px
+  padding-left: 0px
+  background: #000
+  top: 50px
+  left: 0px
+  z-index: -1
+  transition: all .2s ease
+  opacity: 0
+  li
+  	margin-left: 0px
+  	font-size: 12px
+  	//padding: 10px 
+  	border-bottom: 1px solid #fff
+  	&:last-child
+  		border-bottom: 1px solid transparent
+  	&:before
+  		display: none
+  	a
+  		display: block
+  		padding: 10px
+  	&:hover
+  		background: lighten(#000, 30%)
+
+//about-us
+.about-us
+	padding-top: 80px
+	padding-bottom: 95px
+	.h2-b_bottom
+		position: relative
+		margin-bottom: 35px
+		&:before
+			display: block
+			content: ''
+			position: absolute	
+			width: 80px
+			height: 2px
+			background: $main-green
+			left: 50%
+			transform: translateX(-50%)
+			bottom: -25%
+	&_text
+		text-align: center
+		margin-bottom: 0 
+
+
+//our-features
+.our-features
+	padding-top: 80px
+	padding-bottom: 90px
+	&_bg
+		background: url("../img/bg.jpg") no-repeat center
+		background-size: cover
+	.h2
+		margin-bottom: 130px
+	&_block
+		position: relative
+		padding: 40px 18px
+		background: rgba(0,0,0, .9)
+		min-height: 450px
+		&:before,
+		&:after
+			position: absolute
+			display: block
+			content: ""
+			width: 100%
+			height: 45px
+			background: rgba(0,0,0,.5)
+		&:before
+			bottom: -45px
+			left: 0
+		&:after
+			top: -45px
+			left: 0
+		img
+			margin: 0 auto
+		.title
+			display: inline-block
+			position: relative
+			font-size: 25px
+			color: #fff
+			margin-top: 45px
+			span
+				position: absolute
+				display: block
+				width: 330px
+				height: 1px
+				background: $main-green
+				bottom: -20px
+			&:before
+				position: absolute
+				display: block
+				content: ""
+				width: 100%
+				height: 3px
+				background: $main-green
+				bottom: -20px
+
+		.description
+			color: #fff
+			margin-top: 20px
+
+//bu-fromUS
+.bu-fromUS
+	padding-top: 130px
+	padding-bottom: 90px
+	.h2
+		margin-bottom: 70px
+	&_block
+		padding-left: 100px
+		position: relative
+		.tittle-fomUS
+			position: relative
+			font-size: 26px
+			&:before
+				display: block
+				content: ""
+				position: absolute
+				width: 120px
+				height: 1px
+				background: $main-green
+				bottom: -10px
+				left: -25%
+		.dexcription-fromUS
+			font-size: 15px
+
+.bu-fromUS_block--1
+		&:before
+			position: absolute
+			display: block
+			content: "01"
+			text-align: center
+			line-height: 60px
+			font-family: $header-font
+			color: #fff
+			font-size: 20px
+			width: 60px
+			height: 60px
+			background: #000
+			left: 0px
+			top: 0px
+.bu-fromUS_block--2
+		&:before
+			position: absolute
+			display: block
+			content: "02"
+			text-align: center
+			line-height: 60px
+			font-family: $header-font
+			color: #fff
+			font-size: 20px
+			width: 60px
+			height: 60px
+			background: #000
+			left: 0px
+			top: 0px
+.bu-fromUS_block--3
+		&:before
+			position: absolute
+			display: block
+			content: "03"
+			text-align: center
+			line-height: 60px
+			font-family: $header-font
+			color: #fff
+			font-size: 20px
+			width: 60px
+			height: 60px
+			background: #000
+			left: 0px
+			top: 0px
+
+//gallery
+.gallery
+	padding-top: 80px
+	padding-bottom: 80px
+	&-bg
+		position: relative
+		background: url("../img/bg.jpg") no-repeat center
+		background-size: cover
+	.h2
+		margin-bottom: 125px
+.gallary-owl
+	position: relative
+	background: rgba(0,0,0, .8)
+	padding: 55px 0
+	&:before,
+	&:after
+		position: absolute
+		display: block
+		content: ""
+		width: 100%
+		height: 45px
+		background: rgba(0,0,0,.5)
+	&:before
+		left: 0
+		bottom: -45px
+	&:after
+		left: 0
+		top: -45px
+.gallary-owl_item
+	display: inline-block
+	max-width: 240px
+	padding: 10px
+	background: #000
+	border: 2px solid $main-green
+	margin: 0 60px
+	img
+		outline: none
+.owl-carousel
+	position: relative
+
+//кастомизируем слайдер
+.gallery
+	.owl-carousel .owl-stage-outer
+		position: relative
+	.owl-nav
+		position: absolute
+		width: 100%
+		top: 50%
+		left: 0
+		.owl-prev
+			position: absolute
+			right: 33%
+			width: 40px
+			height: 40px
+			z-index: 0
+			transition: all .3s ease	
+			&:before
+				display: block
+				content: '>'
+				width: 40px
+				height: 40px
+				border: 1px solid $main-green
+				background: #000
+				color: $main-green
+				font-size: 18px
+				line-height: 36px
+				text-align: center
+			&:hover
+				transform: scale(1.1)
+		.owl-next
+			position: absolute
+			left: 31%
+			width: 40px
+			height: 40px
+			z-index: 0
+			transition: all .5s ease
+			&:before
+				display: block
+				content: '<'
+				width: 40px
+				height: 40px
+				border: 1px solid $main-green
+				background: #000
+				color: $main-green
+				font-size: 18px
+				line-height: 36px
+				text-align: center
+				transition: all .3s ease
+			&:hover
+				transform: scale(1.1)
+
+//products
+.products
+	padding-top: 125px
+	padding-bottom: 90px
+	.h2
+		margin-bottom: 105px
+	&_block
+		position: relative
+		padding-top: 25px
+		padding-left: 33px
+		padding-right: 330px
+		padding-bottom: 35px
+		border: 1px solid $main-green
+		margin-bottom: 40px
+	&_title
+		display: inline-block
+		position: relative
+		font-size: 23px
+		font-weight: 500
+		text-transform: uppercase
+		span
+			position: absolute
+			display: block
+			width: 480px
+			height: 1px
+			background: $main-green
+			bottom: -10px		
+		&:before
+			position: absolute
+			display: block
+			content: ""
+			width: 100%
+			height: 3px
+			background: $main-green
+			bottom: -10px
+	&_subtitle
+		font-size: 16px
+		font-weight: 700
+	&_text
+		font-size: 14px
+	.img-block
+		position: absolute
+		right: -20px
+		top: -20px
+		width: 260px
+		height: 260px
+		background: url("../img/products/bg-product.jpg") no-repeat center
+		background-size: cover
+		padding: 20px
+		z-index: -1
+
+.products_list-price
+	list-style-type: none
+	padding: 0
+	margin: 0
+	font-family: $header-font
+	display: flex
+	align-items: flex-end
+	justify-content: flex-end
+	.old-price
+		font-size: 17px
+		text-decoration: line-through
+		color: $main-green
+	.new-price
+		font-size: 28px
+		font-weight: bold
+	li
+		margin-left: 35px
+
+.products_block--flip
+	padding-right: 33px
+	padding-left: 290px
+	.img-block
+		left: -20px
+
+.products-button
+	margin-top: 120px
+	padding: 100px 0
+	background: url("../img/bg.jpg") no-repeat center
+	background-size: cover
+	.container
+		display: flex
+		justify-content: space-between
+		align-items: center		
+	p
+		font-size: 60px
+		color: #fff
+		font-weight: 700
+		margin-bottom: 0px
+	.btn-outline
+		display: inline-block
+		padding: 4px
+		border: 1px solid #fff
+
+
+//contact
+.contact
+	padding-top: 80px
+	padding-bottom: 95px
+	.h2
+		margin-bottom: 20px
+	&-text
+		font-size: 14px
+		text-align: center
+		margin: 0 auto
+		max-width: 650px
+		margin-bottom: 40px
+
+.contact-form
+	color: #cacaca
+	margin: 0 auto
+	text-align: center
+	input
+		display: block
+		width: 100%
+		//color: #cacaca
+		margin-bottom: 22px
+		padding-left: 10px
+		border: 1px solid transparent
+		border-bottom: 1px solid #cacaca
+	.submit-btn
+		width: auto
+		display: inline
+		background: #2d3a20
+		text-align: center
+		margin: 0 auto
+		color: #fff
+		cursor: pointer
+		&:hover
+			background: $main-green		
+	.outline-submit
+		display: inline-block
+		margin: 0 auto
+		padding: 5px
+		border: 1px solid #000
+		margin-top: 20px
+
+
+//blog
+.blog
+	padding-top: 80px
+	padding-bottom: 80px
+	&-subtitle
+		font-size: 30px
+		text-transform: uppercase
+		text-align: center
+		margin-bottom: 145px
+	.outline-img
+		display: inline-block
+		padding: 10px
+		border: 1px solid $main-green
+		text-align: center
+		margin-bottom: 35px
+		img
+			display: inline-block
+
+.blog-item
+	position: relative
+	color: #fff
+	padding: 40px 30px
+	background: rgba(0,0,0, .8)
+	&:before,
+	&:after
+		position: absolute
+		display: block
+		content: ""
+		width: 100%
+		height: 45px
+		background: rgba(0,0,0,.5)
+	&:before
+		left: 0
+		bottom: -45px
+	&:after
+		left: 0
+		top: -45px
+	&_title
+		position: relative
+		display: inline-block
+		font-size: 	20px
+		margin-bottom: 	25px
+		span
+			position: absolute
+			display: block
+			width: 300px
+			height: 1px
+			background: $main-green
+			bottom: -10px
+		&:before
+			position: absolute
+			display: block
+			content: ""
+			width: 100%
+			height: 3px
+			background: $main-green
+			bottom: -10px			
+.btn-outline-green
+	display: inline-block
+	padding: 1px
+	border: 1px solid transparent
+	margin-top: 35px
+	&:hover
+		border: 1px solid #2d3a20
+.btn-green
+	display: block
+	padding: 3px 30px
+	font-size: 10px
+	color: #fff
+	background: #2d3a20
+	text-align: center
+	vertical-align: middle
+	&:hover
+		color: #fff
+.blog-bg
+	background: url("../img/bg.jpg") no-repeat center
+	background-size: cover
+
+//faqs
+.faqs
+	padding-top: 100px
+	padding-bottom: 80px
+	.h2
+		margin-bottom: 50px
+	&-block
+		padding: 15px
+		max-width: 300px
+		margin: 0 auto
+		margin-bottom: 45px
+	&_text
+		font-size: 20px
+		line-height: 20px
+	&_title
+		position: relative
+		display: inline-block
+		font-size: 45px
+		font-weight: 900
+		font-family: $header-font
+		&:before
+			position: absolute
+			display: block
+			content: ""
+			width: 100px
+			height: 3px
+			background: $main-green
+			bottom: 0px
+	.btn-outline-green
+		margin-top: 25px
+
+//reviews
+.reviews
+	padding-top: 80px
+	padding-bottom: 200px
+	.h2
+		margin-bottom: 100px
+	&-bg
+		background: url("../img/bg.jpg") no-repeat center
+		background-size: cover
+
+.reviews-slider
+	position: relative
+	color: #fff
+	background: rgba(0,0,0, .8)
+	&:before,
+	&:after
+		position: absolute
+		display: block
+		content: ""
+		width: 100%
+		height: 45px
+		background: rgba(0,0,0,.5)
+	&:before
+		left: 0
+		bottom: -45px
+	&:after
+		left: 0
+		top: -45px	
+	&_item
+		padding: 100px 30px
+		display: flex
+		justify-content: space-between
+		align-items: center
+		img
+			display: block
+			width: 170px
+			border-radius: 50%
+			margin-right: 40px
+	.content-block
+		&_name
+			font-size: 14px
+		&_position
+			font-size: 14px
+			text-transform: uppercase
+		&_comment
+			font-size: 10px
+			color: #5a5a5a
+	.btn-outline-green
+		float: right
+
+//footer
+.footer
+	padding: 50px 0
+	background: #000
+	&-logo
+		font-size: 40px
+		text-align: center
+		color: #fff
+		font-weight: 900
+	.list-title
+		font-size: 20px
+		color: #a3a3a3
+	&-list-social
+		margin: 0
+		padding: 0
+		list-style-type: none
+		display: flex
+		align-items: center
+		li
+			width: 60px
+			height: 60px
+			background: #fff
+			border-radius: 50%
+			margin-right: 10px
+			text-align: center
+			line-height: 60px
+			font-size: 35px
+			cursor: pointer
+			a
+				color: #000
+				&:hover
+					color: blue
+	&-list-card
+		margin: 0
+		padding: 0
+		list-style-type: none
+		display: flex
+		justify-content: flex-end
+		align-items: center
+@import "media" // Always at the end

@@ -1,0 +1,84 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+
+.gallery
+	padding-top: 80px
+	padding-bottom: 80px
+	&-bg
+		position: relative
+		background: url("../img/bg.jpg") no-repeat center
+		background-size: cover
+	.h2
+		margin-bottom: 125px
+.gallary-owl
+	position: relative
+	background: rgba(0,0,0, .8)
+	padding: 55px 0
+	&:before,
+	&:after
+		position: absolute
+		display: block
+		content: ""
+		width: 100%
+		height: 45px
+		background: rgba(0,0,0,.5)
+	&:before
+		left: 0
+		bottom: -45px
+	&:after
+		left: 0
+		top: -45px
+.gallary-owl_item
+	display: inline-block
+	max-width: 240px
+	padding: 10px
+	background: #000
+	border: 2px solid $main-green
+	margin: 0 60px
+.owl-carousel
+	position: relative
+
+//кастомизируем слайдер
+.gallery
+	.owl-carousel .owl-stage-outer
+		position: relative
+	.owl-nav
+		position: absolute
+		width: 100%
+		top: 50%
+		left: 0
+		.owl-prev
+			position: absolute
+			right: 33%
+			width: 40px
+			height: 40px
+			z-index: 0		
+			&:before
+				display: block
+				content: '>'
+				width: 40px
+				height: 40px
+				border: 1px solid $main-green
+				color: $main-green
+				font-size: 18px
+				line-height: 36px
+				text-align: center
+		.owl-next
+			position: absolute
+			left: 31%
+			width: 40px
+			height: 40px
+			z-index: 0
+			&:before
+				display: block
+				content: '<'
+				width: 40px
+				height: 40px
+				border: 1px solid $main-green
+				color: $main-green
+				font-size: 18px
+				line-height: 36px
+				text-align: center
+
