@@ -47,6 +47,7 @@
 - https://deadgothic.github.io/moda/  (письмо,адаптивное.Работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс и т д)
 - https://deadgothic.github.io/ngegorodec/
 - https://deadgothic.github.io/Digest/
+- https://deadgothic.github.io/Zowell/ письмо для магазина https://pogruz-online.ru/
 	
 
 
