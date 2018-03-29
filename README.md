@@ -48,6 +48,7 @@
 - https://deadgothic.github.io/ngegorodec/
 - https://deadgothic.github.io/Digest/
 - https://deadgothic.github.io/Zowell/ письмо для магазина https://pogruz-online.ru/
+- https://deadgothic.github.io/Zowee_2/ еще письмо для магазина https://pogruz-online.ru/
 	
 
 
