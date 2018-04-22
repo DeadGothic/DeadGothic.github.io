@@ -40,7 +40,6 @@
 
 ### Верстка Email-писем ###
 - https://deadgothic.github.io/newmail/ 
-- https://deadgothic.github.io/mailfill/ (еще одно письмецо)
 - https://deadgothic.github.io/santechnika/ (письмо.да,и в outlook тоже работает)
 - https://deadgothic.github.io/pdf/ (письмо долько под десктопы согласно ТЗ.работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс)
 - https://deadgothic.github.io/september/ (письмо,адаптивное.Работает в • Gmail, Mail.ru• Yohoo• Outlook• Hotmail•Яндекс и т д)
