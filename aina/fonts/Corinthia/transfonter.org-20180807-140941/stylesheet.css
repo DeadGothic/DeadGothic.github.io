@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Corinthia";
+    src: url("Corinthia.eot");
+    src: url("Corinthia.eot?#iefix") format("embedded-opentype"),
+    url("Corinthia.woff") format("woff"),
+    url("Corinthia.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
